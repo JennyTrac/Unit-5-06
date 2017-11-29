@@ -1,0 +1,91 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {340, 360}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter a word:",
+          "font_name" : "<System>",
+          "name" : "instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "FA7923C9-E79D-45A9-84A2-AD83B3CF7840"
+        },
+        "frame" : "{{6, 6}, {114, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "word_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "EF881316-1A97-471A-9B1C-B98E4B945E54"
+        },
+        "frame" : "{{128, 6}, {206, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Get Unicode Values",
+          "name" : "get_unicode_button",
+          "action" : "get_unicode_values_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "D28CA777-DD29-48E8-9E8C-1AB5C39531F7"
+        },
+        "frame" : "{{96, 46}, {145, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "WH",
+          "autocorrection_type" : "default",
+          "name" : "unicode_values_textview",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "alignment" : "left",
+          "frame" : "{{145, 170}, {200, 200}}",
+          "editable" : true,
+          "uuid" : "0AE571CF-C3D5-4C72-9888-0FFBB27BE7E3"
+        },
+        "frame" : "{{6, 86}, {328, 268}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
